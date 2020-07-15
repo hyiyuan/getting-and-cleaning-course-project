@@ -11,6 +11,7 @@ The outcomes of this project are:
 and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 
 The raw data of this project are from Human Activity Recognition Using Smartphones Dataset Version 1.0, which include the following files
+------------------------------------------------------------------------------------------------------------------------------------------
 
 - 'README.txt'
 
