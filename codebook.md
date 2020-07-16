@@ -1,9 +1,9 @@
 variables	              Description	                            Values	                                                       Transformation
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-ID	                 unique participant ID 	        numeric variable: 1-30 (totally 30 particpants)	           1. raw data are from  two files:  subject_test.txt and subject_train.text; 
+ID	                 unique participant ID 	        numeric variable: 1-30 (totally 30 particpants)	           1. raw data are from  two files:  subject_test.txt and                                                                                                                               subject_train.text; 
                                                                                                                2. merge data in the step #1
 Activity	           6 types of activities	        character variable: walking, waling_upstairs, 
-                                                    walking_downstaris, sitting, standing, laying	             1. raw data in the format (1:6) are from  two files:  y_test.txt and y_train.text; activity_labes.txt shows the descriptive activity names
+                                                    walking_downstaris, sitting, standing, laying	             1. raw data in the format (1:6) are from  two files:  y_test.txt                                                                                                                  and y_train.text; activity_labes.txt shows the descriptive ctivity names
                                                                                                                2. merge data in the step #1
                                                                                                                3. In the Step #3, replace the 1:6 with activity names by using mapvalues in plyr package"
 tBodyAcc-mean()-X	  the average of this variable    numeric variable;                                          1. raw data are from  two files:  x_test.txt and x_train.text;
